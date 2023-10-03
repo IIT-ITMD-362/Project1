@@ -230,7 +230,6 @@ p{
 	width: 90%;
 	height: 100%;
 	padding: 2% 5%;
-	margin-bottom: 5%;
 	background-color: #2B4B6F;
 	color: #C0C0C0;
 }
@@ -278,7 +277,7 @@ form li {
 }
 
 ol{
-	padding-top: 50px; 
+	padding-top: 20px; 
 }
 
 
@@ -324,7 +323,7 @@ ol{
 	#header{
 		width: 90%;
 		padding: 2% 5%;
-		margin-bottom: 5%;
+		margin-bottom: 2%;
 		background-color: #2B4B6F;
 		color: #C0C0C0;
   }
@@ -345,13 +344,5 @@ ol{
 		float: left;
 		width: 43%;
 		margin: 0 5% 5% 2%;
-	}
-
-  input[type="submit"] {
-		margin-top: 100px;
-	}
-	
-	ol{
-		padding-top: 100px; 
 	}
 }
