@@ -292,27 +292,32 @@ ol{
 
 @media only screen and (min-width: 992px){
 	
+	html{
+	  font-size: 1.375em; 
+	  line-height: 1.182em;
+  }
+	
 	h1{
-	  font-size: 2.779em; 
-	  line-height: 1.2em;
+	  font-size: 3.821em; 
+	  line-height: 1.182em;
   }
 
 	h2{
-		font-size: 1.667em; 
-		line-height: 1.2em;
-		padding-bottom: 1.2em; 
+		font-size: 2.292em; 
+		line-height: 1.182em;
+		padding-bottom: 1.182em;
 	}
 
 	h3{
-		font-size: 0.6em; 
-		line-height: 1.2em;
-		padding-bottom: 1.2em;
+		font-size: 0.825em; 
+		line-height: 1.182em;
+		padding-bottom: 1.182em;
 		text-transform: uppercase;
 		color: #E1CA96;
 	}
 
 	p{
-		padding-bottom: 1.2em; 
+		padding-bottom: 1.182em;
 	}
 
 	#column-l {
