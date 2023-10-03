@@ -239,6 +239,7 @@ img{
 	width: 75%;
 	margin: 50px auto;
 }
+
 #column-l {
 	width: 100%;
 }
@@ -320,6 +321,10 @@ ol{
 		padding-bottom: 1.182em;
 	}
 
+  img{
+	  width: 80%;
+  }
+	
 	#column-l {
   clear: both;
 	float: left;
