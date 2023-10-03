@@ -226,6 +226,7 @@ p{
 	width: 100%;
 	margin: 0 auto;
 }
+
 #header{
 	width: 90%;
 	height: 100px;
@@ -283,12 +284,10 @@ ol{
 
 
 @media only screen and (min-width: 480px){
-	
-	
-	html{
-	  font-size: 1.2em;
+  img{
+	  width: 85%;
   }
-	
+
 }
 
 @media only screen and (min-width: 992px){
@@ -320,16 +319,26 @@ ol{
 	p{
 		padding-bottom: 1.182em;
 	}
+	
+	#header{
+		width: 90%;
+		height: 200px;
+		padding: 5% 5%;
+		margin-bottom: 5%;
+		background-color: #2B4B6F;
+		color: #C0C0C0;
+  }
 
   img{
-	  width: 80%;
+	  width: 100%;
+		margin: 0;
   }
 	
 	#column-l {
-  clear: both;
-	float: left;
-	width: 43%;
-	margin: 0 2% 5% 5%;
+		clear: both;
+		float: left;
+		width: 43%;
+		margin: 0 2% 5% 5%;
 	}
 	
 	#column-r {
@@ -337,23 +346,12 @@ ol{
 		width: 43%;
 		margin: 0 5% 5% 2%;
 	}
+
+  input[type="submit"] {
+		margin-top: 100px;
+	}
 	
-	
-	#header{
-	width: 90%;
-	height: 200px;
-	padding: 5% 5%;
-	margin-bottom: 5%;
-	background-color: #2B4B6F;
-	color: #C0C0C0;
-}
-
-ol{
-	padding-top: 100px; 
-}
-
-input[type="submit"] {
-	margin-top: 100px;
-}
-
+	ol{
+		padding-top: 100px; 
+	}
 }
