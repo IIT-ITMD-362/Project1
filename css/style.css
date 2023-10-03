@@ -265,7 +265,7 @@ input {
 }
 
 input[type="submit"] {
-	width: 200px;
+	width: 100px;
   border-radius: 10px;
 	background-color: #001328;
 	color: #C0C0C0;
@@ -285,6 +285,10 @@ ol{
 @media only screen and (min-width: 480px){
   img{
 	  width: 65%;
+  }
+	
+	input[type="submit"] {
+		width: 200px;
   }
 }
 
