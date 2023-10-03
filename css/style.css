@@ -291,7 +291,6 @@ ol{
 }
 
 @media only screen and (min-width: 992px){
-	
 	html{
 	  font-size: 1.375em; 
 	  line-height: 1.182em;
@@ -322,7 +321,7 @@ ol{
 	
 	#header{
 		width: 90%;
-		height: 200px;
+		height: 150px;
 		padding: 5% 5%;
 		margin-bottom: 5%;
 		background-color: #2B4B6F;
