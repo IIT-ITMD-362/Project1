@@ -237,7 +237,7 @@ p{
 
 img{
 	width: 40%;
-	margin: 0 auto;
+	margin: 2% auto;
 }
 
 #column-l {
@@ -284,7 +284,7 @@ ol{
 
 @media only screen and (min-width: 480px){
   img{
-	  width: 75%;
+	  width: 65%;
   }
 }
 
