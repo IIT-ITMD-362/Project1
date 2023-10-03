@@ -192,28 +192,28 @@ img, audio, video {
 */
 
 html {
-  font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
+  font-size: 1em; /* 16px */
+  line-height: 1.2em; 
+  padding: 1.2em; 
 	font-family: 'Inter', sans-serif;
   text-rendering: optimizeLegibility;
 }
 
 h1{
-	font-size: 3.821em; 
-	line-height: 1.182em;
+	font-size: 2.779em; 
+	line-height: 1.2em;
 }
 
 h2{
-	font-size: 2.292em; 
-  padding-bottom: 1.182em; /* 26px / ~ 120% */
-	line-height: 1.182em;
+	font-size: 1.667em; 
+  padding-bottom: 1.2em; 
+	line-height: 1.2em;
 }
 
 h3{
-	font-size: 0.825em; 
+	font-size: 0.6em; 
 	text-transform: uppercase;
-  padding-bottom: 1.182em; /* 26px / ~ 120% */
+  padding-bottom: 1.2em;
 	color: #E1CA96;
 }
 
