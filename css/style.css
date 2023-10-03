@@ -206,19 +206,20 @@ h1{
 
 h2{
 	font-size: 1.667em; 
-  padding-bottom: 1.2em; 
 	line-height: 1.2em;
+  padding-bottom: 1.2em; 
 }
 
 h3{
 	font-size: 0.6em; 
+	line-height: 1.2em;
+	padding-bottom: 1.2em;
 	text-transform: uppercase;
-  padding-bottom: 1.2em;
 	color: #E1CA96;
 }
 
 p{
-	padding-bottom: 1.182em; /* 26px / ~ 120% */
+	padding-bottom: 1.2em; 
 }
 
 #content{
@@ -290,6 +291,30 @@ ol{
 }
 
 @media only screen and (min-width: 992px){
+	
+	h1{
+	  font-size: 2.779em; 
+	  line-height: 1.2em;
+  }
+
+	h2{
+		font-size: 1.667em; 
+		line-height: 1.2em;
+		padding-bottom: 1.2em; 
+	}
+
+	h3{
+		font-size: 0.6em; 
+		line-height: 1.2em;
+		padding-bottom: 1.2em;
+		text-transform: uppercase;
+		color: #E1CA96;
+	}
+
+	p{
+		padding-bottom: 1.2em; 
+	}
+
 	#column-l {
   clear: both;
 	float: left;
@@ -303,9 +328,6 @@ ol{
 		margin: 0 5% 5% 2%;
 	}
 	
-	html{
-	  font-size: 1em;
-  }
 	
 	#header{
 	width: 90%;
