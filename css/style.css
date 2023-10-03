@@ -229,7 +229,7 @@ p{
 #header{
 	width: 90%;
 	height: 100%;
-	padding: 3% 5%;
+	padding: 2% 5%;
 	background-color: #2B4B6F;
 	color: #C0C0C0;
 }
@@ -307,8 +307,6 @@ ol{
 	h3{
 		font-size: 0.825em; 
 		line-height: 1.182em;
-		text-transform: uppercase;
-		color: #E1CA96;
 	}
 
 	p{
@@ -317,14 +315,11 @@ ol{
 	
 	#header{
 		width: 90%;
-		padding: 2% 5%;
 		margin-bottom: 2%;
-		background-color: #2B4B6F;
-		color: #C0C0C0;
   }
 
   img{
-	  width: 100%;
+	  width: 75%;
 		margin: 0;
   }
 	
