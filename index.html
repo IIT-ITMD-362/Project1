@@ -5,34 +5,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
   <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
-  <link rel="stylesheet" media="screen" href="css/screen.css">
+  <link rel="stylesheet" media="screen" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
 	<main id="content">
-		<div id="wrap">
-			<form method="get" action="#null">
-				<h1>Secret Diabetes Newsletter</h1>
-				<p>
-					Sign up and learn 5 secrets to fight Diabetes!
-				</p>
-				<ol>
-					<li id="input-email">
-						<label for="email">Email: </label>
-						<input type="email" name="email" id="email" pattern="^.+@.+$">
-					</li>
-					<li id="input-age-verification">
-						<input type="checkbox" id="age-verification" name="age-verification" value="18">
-						<label for="age-verification" id="age-label">I am over 18 years old</label>
-					</li>
-					<li id="input-submit">
-						<input type="submit" name="submit" id="submit" value="Subscribe">
-					</li>
-				</ol>
-			</form>
-		</div>	
+		<div id="header">
+		  <h1>Subscribe</h1>
+			<h3>Sign up for emails from Awesome Cookies</h3>
+    </div>
+    <div id="wrap">		
+			<div id="column-l">
+				<img src="Images/cookieMonster.jpg" id="img" alt="Cookie Monster holding cookies and smiling">
+			</div>
+			<div id="column-r">
+				<form method="get" action="#null">
+					<h2>Do you want updates on your favorite cookie spot?</h2>
+					<p>Sign up below to receive occasional promotions and offers.</p>
+					<ol>
+						<li id="input-options">
+							<label for="options">Communication Interests:</label>
+							<select id="options" name="options" size="3" multiple>
+								<option value="new cookie flavors">New cookie flavors</option>
+								<option value="discounts">Discounts</option>
+								<option value="other promotion">Other Promotions</option>
+							</select>
+						</li>
+						<li id="input-submit">
+							<input type="submit" name="submit" id="submit" value="Subscribe">
+						</li>
+					</ol>
+				</form>
+			</div>
+    </div>			
 	</main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js"></script>
