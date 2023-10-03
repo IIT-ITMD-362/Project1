@@ -213,7 +213,6 @@ h2{
 h3{
 	font-size: 0.6em; 
 	line-height: 1.2em;
-	padding-bottom: 1.2em;
 	text-transform: uppercase;
 	color: #E1CA96;
 }
@@ -230,7 +229,7 @@ p{
 #header{
 	width: 90%;
 	height: 100px;
-	padding: 0 5%;
+	padding: 2% 5%;
 	margin-bottom: 5%;
 	background-color: #2B4B6F;
 	color: #C0C0C0;
