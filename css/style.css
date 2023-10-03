@@ -227,24 +227,22 @@ p{
 }
 #header{
 	width: 90%;
-	height: 200px;
+	height: 100px;
 	padding: 5% 5%;
 	margin-bottom: 5%;
 	background-color: #2B4B6F;
 	color: #C0C0C0;
 }
 
+img{
+	width: 75%;
+}
 #column-l {
-  clear: both;
-	float: left;
-	width: 43%;
-	margin: 0 2% 5% 5%;
+	width: 100%;
 }
 
 #column-r {
-	float: left;
-	width: 43%;
-	margin: 0 5% 5% 2%;
+	width: 100%;
 }
 
 label {
@@ -268,7 +266,7 @@ input[type="submit"] {
   border-radius: 10px;
 	background-color: #001328;
 	color: #C0C0C0;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 form li {
@@ -277,7 +275,7 @@ form li {
 }
 
 ol{
-	padding-top: 100px; 
+	padding-top: 50px; 
 }
 
 
@@ -307,4 +305,22 @@ ol{
 	html{
 	  font-size: 1em;
   }
+	
+	#header{
+	width: 90%;
+	height: 200px;
+	padding: 5% 5%;
+	margin-bottom: 5%;
+	background-color: #2B4B6F;
+	color: #C0C0C0;
+}
+
+ol{
+	padding-top: 100px; 
+}
+
+input[type="submit"] {
+	margin-top: 100px;
+}
+
 }
