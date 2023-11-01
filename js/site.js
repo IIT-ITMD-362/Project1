@@ -3,9 +3,14 @@ jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
 });
-
-$(document).ready(function () {
-            $("#submit").click(function () {
-                alert("Thank you for signing up!");
-            });
-        });
+		
+function validateForm() {
+  let x = document.forms["myForm"]["name"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+	else{
+		alert("Thank you for signing up!");
+	}
+}
