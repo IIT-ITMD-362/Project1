@@ -1,14 +1,9 @@
-.hasjs{
-	margin: 0;
-	padding: 0;
-}
-
 html {
   font-size: 1em; /* 16px */
-  line-height: 1.2em; 
-  padding: 1.2em; 
+  line-height: 1.2em;  
 	font-family: 'Inter', serif;
   text-rendering: optimizeLegibility;
+	height: 100%;
 }
 
 h1{
@@ -31,11 +26,6 @@ h3{
 
 p{
 	padding-bottom: 1.2em; 
-}
-
-#content{
-	width: 100%;
-	margin: 0 auto;
 }
 
 #header{
