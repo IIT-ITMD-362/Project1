@@ -34,12 +34,10 @@ p{
 }
 
 #header{
-	width: 90%;
-	height: 100%;
 	padding: 2% 5%;
 	margin-bottom: 2%;
 	background-color: #2B4B6F;
-	color: #C0C0C0;
+	color: pink;
 }
 
 img{
@@ -62,7 +60,7 @@ label {
 input {
   box-sizing: border-box;
   width: 100%;
-  height: 60px;
+  height: 40px;
   border: 1px solid;
   border-color: black;
   border-radius: 2px;
@@ -72,7 +70,8 @@ input {
 }
 
 input[type="submit"] {
-	width: 90%;
+	width: 100%;
+	height: 60px;
   border-radius: 10px;
 	background-color: #001328;
 	color: #C0C0C0;
@@ -125,10 +124,6 @@ ol{
 		padding-bottom: 1.182em;
 	}
 	
-	#header{
-		width: 90%;
-  }
-
   img{
 	  width: 75%;
 		margin: 0;
